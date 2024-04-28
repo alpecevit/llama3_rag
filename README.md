@@ -1,7 +1,7 @@
 # Llama 3 LangChain RAG
 
 ## Overview
-LangChain Chatbot is a conversational AI system designed for question-answering tasks. It leverages various NLP techniques and libraries to understand user questions, retrieve relevant information from a database of embeddings, and provide detailed answers.
+RAG system is designed for question-answering tasks. It leverages various NLP techniques and libraries to understand user questions, retrieve relevant information from a database of embeddings, and provide detailed answers.
 
 ## Components
 ### 1. Embeddings
