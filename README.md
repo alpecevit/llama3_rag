@@ -5,14 +5,13 @@ RAG system is designed for question-answering tasks. It leverages various NLP te
 
 ## Components
 ### 1. Embeddings
- RAG pipeline utilizes Hugging Face's Transformers library for generating embeddings. It employs the "sentence-transformers
- all-MiniLM-l6-v2" model to convert text inputs into numerical representations.
+ RAG pipeline utilizes Hugging Face's Transformers library for generating embeddings. It employs a [sentence transformers](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) model to convert text inputs into numerical representations.
 
 ### 2. Vector Store
-The system uses FAISS (Facebook AI Similarity Search) for efficient similarity search over the embeddings space. The FAISS index is pre-computed on [finance news](https://finance.yahoo.com/news/) and loaded locally to enable fast retrieval of relevant documents.
+The system uses [FAISS](https://ai.meta.com/tools/faiss/) for efficient similarity search over the embeddings space. The FAISS index is pre-computed on [finance news](https://finance.yahoo.com/news/) and loaded locally to enable fast retrieval of relevant documents.
 
 ### 3. Language Model (LLM)
-RAG pipeline uses Llama 3 as its LLM wrapped into Ollama framework.
+RAG pipeline uses [Llama 3](https://llama.meta.com/llama3/) as its LLM wrapped into [Ollama](https://ollama.com/) framework.
 
 ## Usage
 1. Install the required dependencies mentioned in `requirements.txt`.
